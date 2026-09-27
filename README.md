@@ -140,3 +140,12 @@ The execution of the chaos test empirically proves the CUPS architecture and con
 * UPF Failure (Purple Line): Because the UPF is the physical router for the user plane, its termination drops the active traffic temporarily. However, the immediate recovery of the success line demonstrates Docker's automated self-healing policy spinning up a new UPF instance to restore service.
 
 ---
+
+### References
+
+* 3GPP TS 23.501: System Architecture for the 5G System; Stage 2 (Release 17).
+* 3GPP TS 23.527: Restoration Procedures for 5G System; Stage 2 (Network Function resilience and state synchronization).
+* Rosenthal, C., & Jones, L. (2020). Chaos Engineering: System Resiliency in Practice. O'Reilly Media.
+* Open5GS Official Documentation (2024). Kubernetes Helm Chart Deployment and NF Configuration.
+* Kubernetes Official Documentation: Pod Lifecycle, Liveness/Readiness Probes, and ReplicaSets.
+---
