@@ -1,0 +1,14 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Large trace files
+# *.txt
+# *.pcap
+
+# OS generated files
+.DS_Store
+Thumbs.db
