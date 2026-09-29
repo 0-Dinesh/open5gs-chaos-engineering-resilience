@@ -12,6 +12,24 @@ Modern 5G Cores operate as decoupled microservices managed by container orchestr
 
 ---
 
+## Project Structure
+
+```
+open5gs-chaos-engineering-resilience/
+├── data/
+│   └── ping_trace.txt
+├── docs/
+|   ├── chaos-engineering-resilience-report.pdf
+│   └── Resilience_Scorecoard.png
+├── src/
+│   ├── analyze_resilience.py
+|   └── chaos_test.sh
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+---
+
 ## Prerequisites & Initial Setup
 
 This simulation operates on Ubuntu 22.04 LTS utilizing Docker, Open5GS, and UERANSIM.
